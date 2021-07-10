@@ -14,5 +14,6 @@ it('输入框输入内容 => 点击回车 => 列表中展示输入的内容项',
     keyCode: 13,
   })
   const listItems = findTestWrapper(wrapper, 'list-item')
-  console.log(listItems)
+  expect(listItems.length).toEqual(1)
+  expect(listItems.text()).toContain(value)
 })
