@@ -1,0 +1,1 @@
+export const CHANGE_INUT_VALUE = 'CHANGE_INUT_VALUE'

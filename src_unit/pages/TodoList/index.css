@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #cdcdcd;
+}
+.header {
+  line-height: 60px;
+  background: #333;
+}
+.header_content {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #fff;
+}
+
+.header_input {
+  line-height: 24px;
+  margin-top: 15px;
+  float: right;
+  width: 360px;
+  border-radius: 5px;
+  padding: 0 10px;
+  outline: none;
+}
+
+.undo_list {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.undo_list_title {
+  line-height: 40px;
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+.undo_list_count {
+  float: right;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #e6e6ea;
+  border-radius: 50%;
+}
+.undo_list_content {
+  list-style-type: none;
+}
+.undo_list_item {
+  line-height: 32px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-left: 3px solid #629a9c;
+  text-indent: 10px;
+  border-radius: 3px;
+}
+.undo_list_delete {
+  float: right;
+  text-indent: 0;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #e6e6ea;
+  margin-top: 6px;
+  border-radius: 50%;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.list-input {
+  width: 400px;
+  line-height: 22px;
+  position: relative;
+  top: -1px;
+  font-size: 14px;
+  text-indent: 10px;
+  outline: none;
+}

@@ -16,8 +16,9 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
-    "coverage": "npm test -- --coverate"
+    "test": "craco test --watchAll=false",
+    "test:watch": "craco test",
+    "test:report": "craco test --watchAll=false --coverage"
   },
   "eslintConfig": {
     "extends": [
