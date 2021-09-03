@@ -1,7 +1,7 @@
 import React from 'react'
 import { mount } from 'enzyme'
 import TodoList from '../../index'
-import { findTestWrapper } from '../../../../utils/testUtils'
+import { findTestWrapper } from '@/utils/testUtils'
 
 it('输入框输入内容 => 点击回车 => 列表中展示输入的内容项', () => {
   const wrapper = mount(<TodoList />)

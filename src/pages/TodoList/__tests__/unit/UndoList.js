@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import UndoList from '../../components/UndoList'
-import { findTestWrapper } from '../../../../utils/testUtils'
+import { findTestWrapper } from '@/utils/testUtils'
 
 describe('测试UndoList组件', () => {
   const listData = [

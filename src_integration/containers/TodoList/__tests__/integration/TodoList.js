@@ -1,9 +1,10 @@
+/* eslint-disable jest/no-mocks-import */
 import React from 'react'
 import { Provider } from 'react-redux'
 import { mount } from 'enzyme'
+import { findTestWrapper } from '@/utils/testUtils'
+import store from '@/store/createStore'
 import TodoList from '../../index'
-import { findTestWrapper } from '../../../../utils/testUtils'
-import store from '../../../../store/createStore'
 import axios from '../../__mocks__/axios'
 
 // 使用Jest中的定时器代替真正的定时器

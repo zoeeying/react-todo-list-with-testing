@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import Header from '../../components/Header'
-import { findTestWrapper } from '../../../../utils/testUtils'
+import { findTestWrapper } from '@/utils/testUtils'
 
 describe('测试Header组件', () => {
   it('快照测试，保证样式渲染正常', () => {
